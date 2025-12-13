@@ -18,8 +18,14 @@ header.title {
 }
 
 header.title h1 {
-    margin-bottom: 10px;
+  font-size: 4rem;              
+  font-weight: 700;               
+  color: #ffffff;              
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7); 
+  margin: 0;
+  font-family: Lobster-Regular, cursive;
 }
+
 
 h1 {
     color: #000000;
@@ -31,11 +37,6 @@ h2 {
 
 p {
     margin: 0;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
 }
 
 .cat-image {
@@ -51,10 +52,22 @@ footer {
     background-color: #ffebf0;
 }
 
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
 hr {
     border-top: 1px solid rgba(0, 0, 0, 1);
 }
 
 img {
     max-width: 100%;
+}
+
+@font-face {
+    font-family: "Lobster-Regular";
+    src: url("../fonts/Lobster-Regular.ttf") format("truetype");
 }
