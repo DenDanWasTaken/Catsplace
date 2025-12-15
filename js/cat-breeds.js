@@ -66,7 +66,7 @@ const container = document.getElementById("breed-cards");
 breeds.forEach(breed => {
     container.innerHTML += `
     <div class="col">
-      <div class="card h-100 text-center">
+      <div class="card card-clickable h-100 text-center">
         <img src="${breed.img}" class="card-img-top" alt="${breed.name}">
         <div class="card-body">
           <h5 class="card-title" style="font-weight: 600; font-size: 1.5rem; margin-bottom: 0.5rem; !important">${breed.name}</h5>

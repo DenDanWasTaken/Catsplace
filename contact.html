@@ -2,7 +2,6 @@
 <html lang="uk">
 
 <head>
-
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="utf-8">
     <meta name="author" content="Фільшин Едуард">
@@ -14,7 +13,6 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap-icons.css">
-
 </head>
 
 <body>
@@ -35,9 +33,9 @@
                     <li class="nav-item"><a class="nav-link" href="about.html"><i class="bi bi-info me-1"></i>Про
                             сторінку</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html"><i
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html"><i
                                 class="bi bi-person-lines-fill me-1"></i>Контакти</a></li>
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="cat-breeds.html"><i
+                    <li class="nav-item"><a class="nav-link" href="cat-breeds.html"><i
                                 class="bi bi-card-list me-1"></i>Породи
                             котів</a></li>
                     <li class="nav-item"><a class="nav-link" href="tips.html"><i
@@ -63,29 +61,58 @@
     <!--NAVBAR END-->
 
     <!--HEADER START-->
-    <header class="title mb-4 py-5 text-center">
+    <header class="title py-5 text-center">
         <h1>Catsplace</h1>
     </header>
     <!--HEADER END-->
 
-
+    <!-- MAIN START-->
     <main class="container py-md-4 py-2">
-        <h1 class="mb-4">Породи котів</h1>
-        <p>Ознайомтеся з різними породами котів, їх характерами та особливостями догляду.</p>
-        <div class="row row-cols-1 row-cols-md-3 g-4 mt-3" id="breed-cards"></div>
+        <h2 class="mb-4 text-center">Зв'язатися зі мною</h2>
+        <div class="row g-5 align-items-start">
+
+            <!-- CONTACT INFO -->
+            <div class="col-md-5">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="card-title">Мої контакти</h3>
+                        <h5 class="my-1"><i class="bi bi-envelope-fill me-2"></i>Email</h5> 
+                        <p>eduard.filshyn.pp.2024@lpnu.ua</p>
+                        <h5 class="my-1"><i class="bi bi-share-fill me-2"></i>Соцмережі</h5>
+                        <p>
+                            <a href="https://t.me/eduard0726" target="_blank"
+                                class="text-decoration-none">Telegram</a><br>
+                            <a href="https://www.instagram.com/dendanwastaken/" target="_blank"
+                                class="text-decoration-none">Instagram</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONTACT FORM -->
+            <div class="col-md-7">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h3 class="mb-3">Напишіть мені</h3>
+                        <div class="ratio ratio-4x3">
+                            <iframe
+                                src="https://docs.google.com/forms/d/e/1FAIpQLSf_vJHxcDEo4dvWztCNab40gHhiD1G3saCAy54dmq8jAmCZOg/viewform?embedded=true"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+    <!-- MAIN END-->
 
 
-    <!--FOOTER START-->
-    <footer class="text-black text-center p-3">
+    <!-- FOOTER START-->
+    <footer class="text-center p-3">
         <p>Фільшин Едуард — © 2025</p>
     </footer>
-    <!--FOOTER END-->
+    <!-- FOOTER END-->
 
-    <!--SCRIPTS-->
     <script src="js/bootstrap.bundle.js"></script>
-    <script src="js/cat-breeds.js"></script>
-    <!--./SCRIPTS-->
 </body>
 
 </html>
