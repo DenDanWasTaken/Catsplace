@@ -31,7 +31,7 @@ const breeds = [
     },
     {
         name: "Російська блакитна",
-        img: "images/cat-breeds/Russian-Blue-breed.jpg",
+        img: "images/cat-breeds/Russian-blue-breed.jpg",
         desc: "Сіра оксамитова шерсть, зелено-блакитні очі, граційна постава.",
         link: "https://www.purina.ua/find-a-pet/cat-breeds/russian-blue"
     },
